@@ -1,0 +1,22 @@
+import org.junit.jupiter.api.Test;
+
+import org.junit.jupiter.api.Assertions.assertEquals;
+
+public class Calculator(){
+	public int add(int a,int b){
+		return a+b;
+	}
+	publiv int multiply(int c,int d){
+		return c*d;
+	}	
+}
+
+public class CalculatorTest{
+	
+	@Test
+	public void testAdd(){
+		Calculator c=new Calculator();
+		int res=c.add(4,5);
+		assertEquals(9,res);
+	}
+}

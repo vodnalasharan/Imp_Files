@@ -1,0 +1,195 @@
+LEARNING AGILITY
+ 
+1.COOP -->
+ 
+1.CRITICAL THINKING
+        -- Analize,reasoning,problem solving, evaluating, desicion making.
+ 
+2.OPEN TO LEARN
+        -- Learn-Unlearn-Relearn
+ 
+3.OPEN TO CHANGE AND FLEXIBILITY
+        -- Reslience
+ 
+4.PROBLEM SOLVING
+        -- 1.Define the problem 
+           2. Gather info
+           3.iterate solutions
+           4.Potential solutions
+----
+ 
+2.IDENTIFICATION
+ 
+3.RESEARCH
+-Deeper knowledge of something
+ 
+4.IDENTIFING BIAS
+-DIFFERENCE (Partiality)
+ 
+5.DETERMINING RELEVANCE
+ 
+6.INFERENCE
+-Conclusion
+ 
+-----------------------------------------------------------------------------------
+PROBLEM SLOVING TECHINIQUES
+ 
+1.Five 'Why's technique
+ 
+2.Fish bone Techinque
+- identifing the problems in different ways and perspectives.
+ 
+3.Design Thinking
+- Empathize
+- Define
+- Prototype
+- Ideate
+- Test
+
+
+Email Etiquette:
+==================
+-> For Professionalism
+-> For Efficiency of message
+
+To-> receiver
+CC-> Mentions email id's who should know what is going between sender and receiver
+BCC Speciality-> We can include more emails like capacityy is more
+-> We cannot see other recipients like we can see in cc.
+
+Subject-> Simple description -> No rule to keep how many words but 7-8 is good as per company norms.
+Subject gives us info like giving attention to a mail or not or can take some time and open it later.
+Don't use ambiguous words like subject line: Last Month Report. 
+Here we don't know which month and what report.
+Major rules for email:
+=======================
+1)Short
+2)Describe what's in email
+3)Avoid Ambiguity
+
+Body:
+Salutation-> Dear or Hi, Use prefix like Mr/Ms depending on position of them.
+Upto 3 members we can use names like Hi Sharan,Adhvy and Vodnala
+For 4 or above we can use All, Team, Etc..
+
+Greeting is optional in emails.
+
+Pleasantries -> Mentioning what you are 
+Ex: I am Sharan - Cognizant Employee from Chennai.
+Usage:
+======= 
+1)when it is rare or 
+2)contacting very first time
+
+Body:
+1) Use Multiple Paragraphs
+2) Use Bullet points for imp points
+3) Use Table for imp info
+
+Parallelism:
+=============
+It is the repetition of grammatical elements in writing and 
+speaking, which influences both the grammatical structure and the meaning of thoughts presented.
+->Same part of speech
+
+It's optional but do it when it is possible
+Ex:
+====
+Start the session
+Open the presentation
+Present the topics
+
+Way to present the body paras:
+================================
+1) Most imp ones-> actual purpose
+2) Supporting Details-> add anything to purpose
+3) General info-> Good to send to recipient.
+
+After Body we will mention Signature
+Structure:
+===========
+Name
+Designation
+Contact
+Company logo
+Client logo depending on the project
+
+Tips:
+=======
+->Punctuations
+->Use Abbrevations which are accepted in corporate world.
+->No Contractions-> I'm, I don't,........
+->Use exclamations very rarely and only one, Ex: Good Morning!
+->Hitting reply all means spamming others mailboxes.. because it may not relevant to all.
+->Proof read: to know whether we are sending correct and accurate info. 
+->Add email atlast-> 
+->Attaching docs-> If there are more docs merge or push them in one doc and send.
+=>Provide warning before sending large attachments because in outlook, sender and recipient emails will be blocked when sender sends 
+the mail and didn't receive by recipient so that recipient can't send any mails in transit time of receiving mail.
+->Uppercase usage should be limited like use only when to grab the attention.
+->Avoid humor and sarcasm.
+
+Readability Factor:
+========================
+How they perceive...
+1) Result Oriented-> Direct to the point.
+2) Process Oriented-> Explain everything.
+3) People Oriented-> (TONE)=>Keep in my mind how they are receiving or how you are conveying it.
+4) Idea Oriented-> Mention all the keypoints like giving titles of the situation, no need to elaborate(Short and Crispy)
+
+
+
+Chat Etiquette::
+===================
+1) Opening: Greeting, intro, purpose.
+2) Probing(which means questioning): Phrase questions clearly, use open and close ended questions
+=> Open ended means only one word or yes/no or anything which is not brief, close is opposite to open ended.
+3) Acknowledgements: Empathy(To tell the sender that we understood it clearly), Canned responses(Non-human responses like chatbot responding)(if applicable)
+4) Closing: Summary(Imp keypoints of the discussion), Confirmation(confirmation for the action plan)
+
+
+Effective Communication::
+==========================
+1) Clarity: Explaining technical concepts in understandable terms
+2) Conciseness: Delivering info without unnecessary complexity or length
+3) Active Listening: Understanding the needs, concerns, and questions of others
+4) Feedback Exchange: Giving and receiving constructive feedback
+5) Adaptability: Tailoring communication style to suite diverse audiences.
+
+Conflict Resolution Activity::
+===============================
+DESC Model
+Describe:Objectively state the situation
+Express: Share your feelings
+Specify:Request a clear change
+Consequences:Outline potential outcomes
+
+Time Management::
+===================
+Imp and Urgent-> Do
+Imp and Not Urgent-> Decide
+Not Imp and Urgent-> Delegate
+Not Imp and Not Urgent-> Delete
+
+Presentation Skills::
+=======================
+Why?
+Who?
+What?
+How?
+
+Open-Body-Close format in ppt
+Open: Story, Questions, Trends
+Body: Factual info which is relevent and attractive
+Close: Apply what learnt from the session
+
+Structure of PPT:
+=================
+Greeting, Intro about ourselves, title intro, objective or synopsis
+Sub topics: Leading, Explanation, Mini recap
+Summarize the overall topic
+Questions and then feedback
+Closing the presentation by thanking
+
+Do's & Dont's of presenter: Eye-contact, Body language, Audability, Time limit, Dress, 
+Have complete knowledge, Language, Listening with patience, Backup plans.

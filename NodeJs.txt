@@ -1,0 +1,41 @@
+React Js:
+==========
+Create react App:
+
+->npx create-react-app appName
+This command where x is mentioned, will install latest version
+->npm create-react-app appName
+This command where m is mentioned, will install current version
+
+To Start the app:
+==================
+Go to folder that you created for app
+-> npm start
+
+Flow of React:
+================
+App.js is the client --> Index.js --> Index.html 
+Index.html file displays the content
+
+How to render more than one element
+<div></div>
+<></> Fragment tag
+
+Component Types:
+=================
+1)Functional 
+2)Class
+
+Style:
+JSX(JavaScript for Xml) -> expression language -> {10+10}, we can put expression inside braces
+
+props --> It is immutable obj but it has to sending the data from one comp to another comp
+
+state --> It is mutable obj, we can modify it. setState().
+React Events: 
+React Forms
+Axios --> Get,Put,Post
+formik --> validations checking
+ReactHook --> To manage comp lifecycle (useReference,useState,...)
+
+

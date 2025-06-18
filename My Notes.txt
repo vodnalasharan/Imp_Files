@@ -1,0 +1,20 @@
+NOTES:
+==========
+
+=> When @ComponentScan is typically used (and highly recommended):
+
+Auto-detecting Spring-managed beans: If you're following Spring's convention of using annotations like @Component, @Service, @Repository, @Controller, and @Configuration to define your beans, then @ComponentScan is essential. It tells Spring where to look for these annotated classes and automatically register them as beans in the application context. This significantly reduces the amount of explicit XML or Java-based bean definition you need to write.   
+
+Organizing your application: By placing @ComponentScan on your main @Configuration class (or another configuration class), you clearly define the base packages that Spring should scan for components. This helps in structuring your application and preventing Spring from accidentally picking up unwanted beans from external libraries or unrelated parts of your project.   
+
+=> When you might not need @ComponentScan (but it's less common for typical applications):
+
+Explicitly defining all beans: If you are manually defining every single bean in your @Configuration class using the @Bean annotation, then you technically don't need @ComponentScan. In this scenario, Spring relies solely on the @Bean methods within your configuration class to create and manage beans. However, this approach can become very verbose and difficult to maintain as your application grows.
+
+Using XML-based configuration exclusively: If your Spring application is configured entirely using XML files (<beans> definitions), then component scanning is usually configured within the XML using the <context:component-scan> element. In this case, you wouldn't need @ComponentScan in your Java configuration classes. However, modern Spring development heavily favors Java-based configuration.
+
+
+=> Use ${...} when you want to inject a simple configuration value from a property source.
+
+=> Use #{...} when you need to perform a more complex operation, such as accessing a bean's property, calling a method, or doing calculations.
+

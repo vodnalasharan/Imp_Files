@@ -1,0 +1,376 @@
+Spring core
+=============
+
+Software req: Eclipse(IDE), STS(SpringToolSuit), IntellectJ (IDE)
+===============
+
+Spring core Modules
+=====================
+Dependency Injection
+Bean XML Configuration
+AutoWire Attributes
+=====================
+byType --> It will check class Name then it has to injecting value.
+byName --> It will check class Name as well as Bean Id then it has to injecting
+autodect --> It has to perform constructor injection as well as setter injection
+When the bean class had default constructor then it has to perform setter injection
+If the bean had param constructor it has to constructor injection
+
+constructor -->It has to perform constructor injection
+
+None -->No dependency injection
+
+In XML File, how to create a bean obj?
+========================================
+dtd(doc type definition) schema
+<beans>
+<bean id="emp" class="beans.Employee"
+</beans>
+
+How to call bean class setters?(bean class is same as model class)
+-> <property>
+
+How to call bean cls constructors?
+-> <constructor arg>
+
+How to Inject primitive datatypes?
+
+<property name="ename" type="java.lang.String">(For string this format, giving complete name)
+<property name="eid" type="int">
+<property name="esal" type="double">
+
+
+How to injecting reference data type?
+======================================
+<ref>
+
+Spring Collections
+====================
+How to injecting list of values
+<list>
+<value>101</v>
+<value>102</v>
+</list>
+
+How to inject unique objs?
+==========================
+<set>
+<value>app1</v>
+<value>app2</v>
+</set>
+
+How to store unique keys and values?
+=======================================
+<map>
+<entry key="aaa" value=101/>
+<entry key="bbb" value=102/>
+</map>
+
+How to create inneBeans?
+=========================
+<beans>
+<bean id="emp1" class="beans.Employee">
+<property name="ename">
+<bean id="emp2" class="beans.Employee">
+</property>
+</bean>
+</beans>
+
+
+Index: Starts with 0th index
+=============
+
+class App1{
+App1(int a,int b)
+{
+}
+App1(int x,int y)
+{
+}
+
+}
+
+Bean scope attributes
+=======================
+singleton --> It has to create only on obj
+prototype --> each req is going to create a seperate obj
+session --> It has to create specific client req as well it has to overcome stateless protocol
+Application --> It has to create multiple (Non-specific)objs as per the client requirement
+
+Spring IOC Container
+======================
+1)BeanFactory(lazy container)
+2) application Context(Eager container waiting for obj)
+3) Web Application context(It is for only web projects)
+4) AnnotationBasedApplicationContext(It is only for contexts without XML files) --> ConfigurationApplicationContext
+
+Without XML files how to create bean and how to get bean object 
+Stereotype Annotations
+===========================
+@service --> It is to provide different services/business code
+@Component --> It has to create bean object without xml file
+@Autowire --> It has to search the given obj then it has to injecting into reference vars(Automatic dependency Injection))
+@Qualifier --> It has to inject specific obj values
+Suppose: In XML file we have two bean objs, the objs coming from same class in search requirement autowire annotations
+it has to get ambiguity ib this case we have to give specific obj name, we should choose qualifier(To overcome ambiguity).
+@Value --> It has to injecting dynamic values from application into bean class setters
+@Primary --> By default we have to injecting specific obj
+@Bean --> It is to create bean obj
+@Configuration --> It's working is similar to XML file.
+@Scope --> It is to check scoped attribute
+@Required --> It has to check property validations, It has to mandatory field
+@Repository --> It's working on DAO pattern
+@ComponentScan --> It has to scan complete package
+@RequestMapping --> It has to making request
+@Controller --> It has to making spring controller 
+@RestController --> It has to making restcontroller by default it has to return json obj
+@Pathvariable --> It has to making param with in method body
+@RequestParam --> It is working similar to req(It has to get forms values then it has to local vars)
+@RequestBody --> It has to create new obj
+@ResponseBody --> What obj the method has to return the obj it has to display on the browser it cannot forward any request.
+Jpa --> It's ORM(ObjectRelationalMapping) - Hibarnate, Spring, Toplink, Ia bits, Connection pool Technique, jpa
+
+@Id --> It has to create primary key column
+@Column --> It will take bean class property then it has to create db col
+eid
+@Column("emp_id") --> It will take param then it has to create db col
+eid
+@Table
+Emp(Db Table name) --> by default it will be bean
+@Table("Employee")
+Emp --> It will take the param it will db table
+@minlength --> checks minlength
+@maxlength --> checks maxlength
+@size --> It will check db col size
+Ex..............
+
+With XML file how to create setter injection 
+
+
+Ex................
+
+
+Aop Module
+
+Spring JDBC
+
+How to create a maven project
+
+How to Inject secondary Data types?
+
+class Engine{
+string modelyear;
+//setters
+//getters
+}
+
+class Car{
+String []cname;
+Engine []engine; //secondary datatypes
+}
+
+
+Setter Injection Realtime Example
+
+Email notification
+Hospital Management
+Employee Management
+Banking Domain
+
+
+
+
+Spring JDBC --> It has to communicate diff db servers
+Spring AOP --> It has to give advise before calling business code or after calling business code
+
+@aspect --> It has to create container
+@before --> It has to give before advise
+@after --> It has to give after advise
+@around(After and Before at at time)
+@afterreturned --> After calling business code it has to return advise
+
+Solid principles
+=================
+1)Single responsibility Principle(SRP) --> It has to take it only one responsibility(One method() in one class)
+
+
+// Bad Code 
+class App{
+public void cust_order(){
+S.o.pln("cust order")
+}
+public void cust_payment(){}
+public void recieve_order(){}
+}
+
+
+// Good code
+
+class Customer{
+public void cust_order(){}
+}
+
+class Payment{}
+class Recieve{}
+
+
+2)Open and Close Principle(OCP) --> Without modifying existing code, we can add new methods.
+
+3)Dependency Inversion Principle(DIP) --> High lvl services classes depends on interface,
+it's not depends on implement classes
+
+
+
+JUnit: A testing framework
+============
+
+@test --> It has to create test cases
+@beforeAll --> Before starting all testcases is going to get call only one time itself -- init()
+@afterAll --> after finishing all testcases is going to get call only one time itself -- destroy()
+@before --> It has to call for each test case
+@after --> It has to be calling after finishing each test case
+
+@test(exception=ArithmeticException
+assertEquals(except,business)
+assertTrue()
+assertFalse()
+@disable --> Ignore or disable particular test case
+ex..................
+
+
+Mockito(Advance of Junit):
+============
+@Mock --> It has to create duplicate obj
+@MockBean --> creates mock obj
+@when() --> It will check the conditions and then it has to return values (checks test case behaviour)
+@spy() --> It wil check mock obj interval time (identifies stub obj)
+@time() --> It has to milliseconds
+@times() --> It has to count test case calling timings
+@injectMock --> It has to injecting Mock obj
+@verify() --> It has to verify the actual obj
+atLeast(1) -->
+atMax(5) -->
+atMin(2) -->
+
+
+@Repository
+===============
+
+SpringBoot:
+============
+Curd repository --> Save, FetchAll, delete, findById(),  ex.........
+JPA Repository --> save,saveAll,delete,update,Find
+
+
+@Service -->
+
+
+Junit 5.0:
+===========
+@test -->
+@beforeEach --> for each testcase is called before 
+@afterEach --> for each testcase is called after
+
+
+Junit 4.0: (outdated)
+===========================
+@test
+@beforeClass
+@afterClass
+@before
+@after
+
+How many ways to create the springboot project
+====================================================
+1)Spring starter proj
+2) Spring.io
+3) Cli
+
+anyInt() --> Macther funs
+
+Mockito
+==========
+hasSize() --> checks mock obj size
+hasItems() --> It has to treating mock items
+greaterThan() --> fetches grater value from mock obj
+Similarly
+greaterThanOrEquals() --> 
+lessThan() -->
+
+
+
+JWT(JavaWebToken)
+Controller
+
+DataJpa --> crud
+
+MySql --> application.properties
+
+Lombok --> No need to write setters,getters, Constructors, toString
+@Setter
+@Getter
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+
+
+Model
+=========
+validations
+@Entity
+public class Emp{
+@id
+@GeneratedValue
+int eid;
+@NotEmpty
+@Min(5)
+@Max(10)
+String ename;
+@NotEmpty
+double esal;
+@NotEmpty
+String bname;
+@NotEmpty
+@Pattern(\10{d})
+long phnnum;
+}
+
+SpringStarter
+================
+pom.xml
+========
+spring-boot-starter-web --> 
+spring-data-jpa(Communicate db servers)
+mySqlDriver -->
+validation -->
+Lombok -->
+
+
+
+
+Gateway Pattern:
+===================
+JWT
+Login
+Authentication
+Authorization
+CircuitBreaker Pattern: If any service is going to fail, that impact will not goes to entire project
+Without gateway pattern we cannot create microservices because its entry level pattern for microservices
+
+How does it work: It's entry level pattern it has to get Client req, then it has to map to the particular service
+
+Fallback service:
+=================
+-> It is to now the status of a service whether it is active or inactive
+
+gateway - Pattern - example
+|--eureka-server/
+|--gateway - service/
+|--product-service/
+|__order - service/
+
+
+product and order microservices wil be called from gateway service
+
+Without yml file it can't find spring cloud and spring application name and tomcat won't be embedding
+
